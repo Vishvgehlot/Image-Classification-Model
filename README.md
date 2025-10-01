@@ -7,9 +7,6 @@
 
 A deep learning model designed to identify and classify various urban civic issues from images. This project leverages transfer learning with the MobileNetV2 architecture to accurately categorize problems such as potholes, garbage, broken roads, and more, helping to streamline urban maintenance and reporting.
 
-![Project Demo Screenshot]([Link_to_a_screenshot_or_GIF_of_your_model_predicting_an_image])
-*(**Pro Tip:** Take a screenshot of your prediction script successfully identifying a pothole or garbage and upload it to your repository, then replace the link above.)*
-
 ## Table of Contents
 * [About the Project](#about-the-project)
 * [Features](#features)
@@ -38,6 +35,7 @@ This project was built to explore the application of computer vision for social 
 ## Dataset
 The model was trained on a custom dataset of over 50,000 images, categorized into six classes. For the model to be trained correctly, the data must be organized in the following directory structure:
 
+```sh
 my\_civic\_dataset/
 ├── Broken Road/
 │   ├── image1.jpg
@@ -57,7 +55,7 @@ my\_civic\_dataset/
 └── Non-Civic/
 ├── image1.jpg
 └── ...
-
+```
 ## Model Architecture
 The core of this project is a transfer learning approach with MobileNetV2.
 1.  **Base Model:** A pre-trained MobileNetV2 model (trained on ImageNet) is used as a feature extractor. Its top classification layer is removed.
@@ -143,11 +141,9 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 ## Acknowledgements
 
   * [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/abs/1801.04381)
+  * [Kaggle](https://www.kaggle.com/) for the Dataset
   * [TensorFlow](https://www.tensorflow.org/)
   * [Keras](https://keras.io/)
   * [Shields.io](https://shields.io) for the badges.
 
 <!-- end list -->
-
-```
-```
