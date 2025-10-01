@@ -1,4 +1,3 @@
-```markdown
 # Civic Issue Classifier 🏙️
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
@@ -38,8 +37,6 @@ This project was built to explore the application of computer vision for social 
 
 ## Dataset
 The model was trained on a custom dataset of over 50,000 images, categorized into six classes. For the model to be trained correctly, the data must be organized in the following directory structure:
-
-```
 
 my\_civic\_dataset/
 ├── Broken Road/
