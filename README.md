@@ -58,8 +58,6 @@ my\_civic\_dataset/
 ├── image1.jpg
 └── ...
 
-````
-
 ## Model Architecture
 The core of this project is a transfer learning approach with MobileNetV2.
 1.  **Base Model:** A pre-trained MobileNetV2 model (trained on ImageNet) is used as a feature extractor. Its top classification layer is removed.
