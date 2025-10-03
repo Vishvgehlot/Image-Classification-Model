@@ -135,8 +135,8 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` file for more information.
-*(**Note:** If you don't have a `LICENSE` file, you can easily add one on GitHub by clicking "Add file" -\> "Create new file", typing `LICENSE` as the name, and then clicking the "Choose a license template" button.)*
+Distributed under the MIT License.
+
 
 ## Acknowledgements
 
