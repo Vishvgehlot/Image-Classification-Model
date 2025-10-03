@@ -52,8 +52,8 @@ my\_civic\_dataset/
 ├── Potholes/
 │   ├── image1.jpg
 │   └── ...
-└── Non-Civic/
-├── image1.jpg
+├── Non-Civic/
+│   ├── image1.jpg
 └── ...
 ```
 ## Model Architecture
