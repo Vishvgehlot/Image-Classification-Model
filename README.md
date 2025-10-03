@@ -36,23 +36,23 @@ This project was built to explore the application of computer vision for social 
 The model was trained on a custom dataset of over 50,000 images, categorized into six classes. For the model to be trained correctly, the data must be organized in the following directory structure:
 
 ```sh
-my\_civic\_dataset/
-├── Broken Road/
+my_civic_dataset
+├── Broken Road
 │   ├── image1.jpg
 │   └── ...
-├── Broken Traffic Light/
+├── Broken Traffic Light
 │   ├── image1.jpg
 │   └── ...
-├── Drainage/
+├── Drainage
 │   ├── image1.jpg
 │   └── ...
-├── Garbage/
+├── Garbage
 │   ├── image1.jpg
 │   └── ...
-├── Potholes/
+├── Potholes
 │   ├── image1.jpg
 │   └── ...
-├── Non-Civic/
+├── Non-Civic
 │   ├── image1.jpg
 └── ...
 ```
